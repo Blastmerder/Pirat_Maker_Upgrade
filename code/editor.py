@@ -14,12 +14,14 @@ from random import randint, choice
 
 
 class Editor:
-    def __init__(self, land_tiles, switch):
+    def __init__(self, land_tiles, switch, setting_menu):
 
         # main setup
         self.display_surface = pygame.display.get_surface()
         self.canvas_data = {}
         self.switch = switch
+
+        self.setting_menu = setting_menu
 
         self.land_tiles = land_tiles
         self.imports()
@@ -165,6 +167,7 @@ class Editor:
             'enemies': {},
             'coins': {},
             'fg objects': {},
+            'interact obj': {},
         }
 
         left = sorted(self.canvas_data.keys(), key=lambda tile: tile[0])[0][0]
@@ -201,6 +204,8 @@ class Editor:
             if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
                 self.switch(self.create_grid())
                 self.editor_music.stop()
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                self.setting_menu.click(mouse_pos(), mouse_button())
             self.pan_input(event)
             self.selection_hotkeys(event)
             self.menu_click(event)
@@ -211,6 +216,7 @@ class Editor:
             self.canvas_remove()
 
             self.create_clouds(event)
+
 
     def pan_input(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN and mouse_button()[1]:
@@ -239,7 +245,7 @@ class Editor:
                 self.selection_index += 1
             if event.key == pygame.K_LEFT:
                 self.selection_index -= 1
-        self.selection_index = max(2, min(self.selection_index, 18))
+        self.selection_index = max(2, min(self.selection_index, 19))
 
     def menu_click(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN and self.menu.rect.collidepoint(mouse_pos()):
@@ -247,7 +253,7 @@ class Editor:
             self.selection_index = new_index if new_index else self.selection_index
 
     def canvas_add(self):
-        if mouse_button()[0] and not self.menu.rect.collidepoint(mouse_pos()) and not self.object_drag_active:
+        if mouse_button()[0] and not self.menu.rect.collidepoint(mouse_pos()) and not self.object_drag_active and not self.setting_menu.rect.collidepoint(mouse_pos()) and not self.setting_menu.display_settings:
             current_cell = self.get_current_cell()
             if EDITOR_DATA[self.selection_index]['type'] == 'tile':
 
@@ -261,6 +267,7 @@ class Editor:
                     self.last_selected_cell = current_cell
             else:
                 if not self.object_timer.active:
+
                     groups = [self.canvas_objects, self.background] if EDITOR_DATA[self.selection_index]['style'] == 'palm_bg' else [self.canvas_objects, self.foreground]
                     CanvasObject(
                         pos=mouse_pos(),

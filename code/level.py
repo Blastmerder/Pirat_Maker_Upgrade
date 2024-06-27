@@ -1,6 +1,9 @@
 import pygame, sys
 from pygame.math import Vector2 as vector
 
+from pygame.mouse import get_pressed as mouse_button
+from pygame.mouse import get_pos as mouse_pos
+
 from settings import *
 from support import *
 
@@ -9,7 +12,7 @@ from random import choice, randint
 
 
 class Level:
-    def __init__(self, grid, switch, asset_dict, audio):
+    def __init__(self, grid, switch, asset_dict, audio, setting_menu):
         self.display_surface = pygame.display.get_surface()
         self.switch = switch
 
@@ -45,6 +48,8 @@ class Level:
 
         self.hit_sound = audio['hit']
         self.hit_sound.set_volume(0.3)
+
+        self.setting_menu = setting_menu
 
 
     def build_level(self, grid, asset_dict, jump_sound):
@@ -150,6 +155,10 @@ class Level:
                 x = self.level_limit['right'] + randint(100, 300)
                 y = self.horizon_y - randint(-50, 600)
                 Cloud((x, y), surf, self.all_sprites, self.level_limit['left'])
+
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                self.setting_menu.click(mouse_pos(), mouse_button())
+
 
     def startup_clouds(self):
         for i in range((self.level_limit['right'] - self.level_limit['left'])//50):

@@ -23,27 +23,30 @@ class Menu:
     def create_buttons(self):
 
         # menu area general
-        size = 180
+        size = 360
         margin = 6
         topleft = (WINDOW_WIDTH-size-margin, WINDOW_HEIGHT-size-margin)
         self.rect = pygame.Rect(topleft, (size, size))
 
         # button areas
-        generic_button_rect = pygame.Rect(self.rect.topleft, (self.rect.width / 2, self.rect.height / 2))
+        generic_button_rect = pygame.Rect(self.rect.topleft, (self.rect.width / 4, self.rect.height / 4))
         button_margin = 5
         self.tile_button_rect = generic_button_rect.copy().inflate(-button_margin, -button_margin)
-        self.coin_button_rect = generic_button_rect.copy().move(self.rect.height/2, 0).inflate(-button_margin, -button_margin)
-        self.enemy_button_rect = generic_button_rect.copy().move(self.rect.height / 2, self.rect.width / 2).inflate(-button_margin,
+        self.coin_button_rect = generic_button_rect.copy().move(self.rect.height/4, 0).inflate(-button_margin, -button_margin)
+        self.enemy_button_rect = generic_button_rect.copy().move(self.rect.height / 4, self.rect.width / 4).inflate(-button_margin,
                                                                                                 -button_margin)
-        self.palm_button_rect = generic_button_rect.copy().move(0, self.rect.width / 2).inflate(-button_margin,
+        self.palm_button_rect = generic_button_rect.copy().move(0, self.rect.width / 4).inflate(-button_margin,
 
                                                                                                 -button_margin)
+        self.interect_obj_button_rect = generic_button_rect.copy().move(self.rect.height/2, self.rect.width / 4).inflate(-button_margin,
+                                                                                                                           -button_margin)
         # create the buttons
         self.buttons = pygame.sprite.Group()
         Button(self.tile_button_rect, self.buttons, self.menu_surfs['terrain'])
         Button(self.coin_button_rect, self.buttons, self.menu_surfs['coin'])
         Button(self.enemy_button_rect, self.buttons, self.menu_surfs['enemy'])
         Button(self.palm_button_rect, self.buttons, self.menu_surfs['palm fg'], self.menu_surfs['palm bg'])
+        Button(self.interect_obj_button_rect, self.buttons, self.menu_surfs['checkpoint'], self.menu_surfs['checkpoint'])
 
     def highlight_indicator(self, index):
         if EDITOR_DATA[index]['menu'] == 'terrain':
@@ -54,6 +57,8 @@ class Menu:
             pygame.draw.rect(self.display_surface, BUTTON_LINE_COLOR, self.enemy_button_rect.inflate(4, 4), 5, 4)
         if EDITOR_DATA[index]['menu'] in ('palm fg', 'palm bg'):
             pygame.draw.rect(self.display_surface, BUTTON_LINE_COLOR, self.palm_button_rect.inflate(4, 4), 5, 4)
+        if EDITOR_DATA[index]['menu'] == 'checkpoint':
+            pygame.draw.rect(self.display_surface, BUTTON_LINE_COLOR, self.interect_obj_button_rect.inflate(4, 4), 5, 4)
 
     def click(self, mouse_pos, mouse_button):
         for sprite in self.buttons:

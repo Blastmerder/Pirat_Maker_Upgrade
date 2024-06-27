@@ -8,8 +8,10 @@ from pygame.image import load
 
 from editor import Editor
 from level import Level
+from game_settings import SettingMenu
 
 from os import walk
+
 
 
 class Main:
@@ -21,13 +23,18 @@ class Main:
 
 		self.editor_active = True
 		self.transition = Transition(self.toggle)
-
-		self.editor = Editor(self.land_tiles, self.switch)
+		self.settings = SettingMenu()
+		self.editor = Editor(self.land_tiles, self.switch, self.settings)
 
 		# cursor
 		surf = load('../graphics/cursors/mouse.png').convert_alpha()
 		cursor = pygame.cursors.Cursor((0, 0), surf)
 		pygame.mouse.set_cursor(cursor)
+
+		self.settings.set_sounds(
+			sounds_bg=[self.editor.editor_music, self.level_sounds['music']],
+			sounds_effect=[effect for name, effect in self.level_sounds.items() if name != 'music'])
+
 
 	def imports(self):
 		self.land_tiles = import_folder_dict('../graphics/terrain/land')
@@ -90,9 +97,9 @@ class Main:
 					'player': self.player_graphics,
 					'pearl': self.pearl,
 					'clouds': self.clouds},
-				self.level_sounds
+				self.level_sounds,
+				self.settings
 			)
-
 
 	def run(self):
 		while True:
@@ -101,6 +108,7 @@ class Main:
 				self.editor.run(dt)
 			else:
 				self.level.run(dt)
+			self.settings.update(dt)
 			self.transition.display(dt)
 			pygame.display.update()
 
