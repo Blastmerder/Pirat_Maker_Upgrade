@@ -205,7 +205,7 @@ class Editor:
                 self.switch(self.create_grid())
                 self.editor_music.stop()
             if event.type == pygame.MOUSEBUTTONDOWN:
-                self.setting_menu.click(mouse_pos(), mouse_button())
+                self.setting_menu.click()
             self.pan_input(event)
             self.selection_hotkeys(event)
             self.menu_click(event)

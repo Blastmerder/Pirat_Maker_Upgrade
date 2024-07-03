@@ -40,14 +40,11 @@ class Level:
 
         # sounds
         self.bg_music = audio['music']
-        self.bg_music.set_volume(0.4)
         self.bg_music.play(loops=-1)
 
         self.coin_sound = audio['coin']
-        self.coin_sound.set_volume(0.3)
 
         self.hit_sound = audio['hit']
-        self.hit_sound.set_volume(0.3)
 
         self.setting_menu = setting_menu
 
@@ -157,7 +154,8 @@ class Level:
                 Cloud((x, y), surf, self.all_sprites, self.level_limit['left'])
 
             if event.type == pygame.MOUSEBUTTONDOWN:
-                self.setting_menu.click(mouse_pos(), mouse_button())
+                self.setting_menu.click()
+
 
 
     def startup_clouds(self):

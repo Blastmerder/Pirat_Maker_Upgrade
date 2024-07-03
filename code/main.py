@@ -21,7 +21,7 @@ class Main:
 		self.clock = pygame.time.Clock()
 		self.imports()
 
-		self.editor_active = True
+		self.menu_mode = 'editor'
 		self.transition = Transition(self.toggle)
 		self.settings = SettingMenu()
 		self.editor = Editor(self.land_tiles, self.switch, self.settings)
@@ -71,13 +71,12 @@ class Main:
 			'music': pygame.mixer.Sound('../audio/SuperHero.ogg')
 		}
 
-	def toggle(self):
-		self.editor_active = not self.editor_active
-		if self.editor_active:
+	def toggle(self, new_mode):
+		self.menu_mode = new_mode
+		if self.menu_mode == 'editor':
 			self.editor.editor_music.play()
 
 	def switch(self, grid=None):
-		self.transition.active = True
 		if grid:
 			self.level = Level(
 				grid,
@@ -100,13 +99,17 @@ class Main:
 				self.level_sounds,
 				self.settings
 			)
+			self.transition.mode = 'level'
+		else:
+			self.transition.mode = 'editor'
+		self.transition.active = True
 
 	def run(self):
 		while True:
 			dt = self.clock.tick() / 1000
-			if self.editor_active:
+			if self.menu_mode == 'editor':
 				self.editor.run(dt)
-			else:
+			elif self.menu_mode == 'level':
 				self.level.run(dt)
 			self.settings.update(dt)
 			self.transition.display(dt)
@@ -118,6 +121,7 @@ class Transition:
 		self.display_surface = pygame.display.get_surface()
 		self.toggle = toggle
 		self.active = False
+		self.mode = 'editor'
 
 		self.border_width = 0
 		self.direction = 1
@@ -130,11 +134,11 @@ class Transition:
 			self.border_width += 1000 * dt * self.direction
 			if self.border_width >= self.threshold:
 				self.direction = -1
-				self.toggle()
+				self.toggle(self.mode)
 			if self.border_width < 0:
-				self.active = False
 				self.border_width = -0
 				self.direction = 1
+				self.active = False
 			pygame.draw.circle(self.display_surface, 'black', self.center, self.radius, int(self.border_width))
 
 
