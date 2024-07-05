@@ -91,37 +91,6 @@ class SettingMenu:
         self.music_on = True
         self.sounds_on = True
 
-    """
-    def create_data(self):
-        self.menu_surfs = {}
-        for key, value in EDITOR_DATA.items():
-            if value['settings']:
-                if not value['settings'] in self.menu_surfs:
-                    self.menu_surfs[value['settings']] = [(key, pygame.transform.scale2x(load(value['menu_surf'])))]
-                else:
-                    self.menu_surfs[value['settings']].append((key, pygame.transform.scale2x(load(value['menu_surf']))))
-
-
-     def create_button(self):
-
-        # menu area general
-        size = 64
-        topleft = (WINDOW_WIDTH-size, WINDOW_HEIGHT-size)
-        self.rect = pygame.Rect(topleft, (size, size))
-
-        # button areas
-        generic_button_rect = pygame.Rect(self.rect.topleft, (self.rect.width / 4, self.rect.height / 4))
-        button_margin = 5
-        self.interect_obj_button_rect = generic_button_rect.copy().move(self.rect.height/2, self.rect.width / 4).inflate(-button_margin,
-                                                                                                                           -button_margin)
-        # create the buttons
-        self.buttons = pygame.sprite.Group()
-        Button(self.interect_obj_button_rect, self.buttons, self.menu_surfs['checkpoint'], self.menu_surfs['checkpoint'])
-
-    def highlight_indicator(self, index):
-        if EDITOR_DATA[index]['menu'] == 'checkpoint':
-            pygame.draw.rect(self.display_surface, BUTTON_LINE_COLOR, self.interect_obj_button_rect.inflate(4, 4), 5, 4)"""
-
 
     def set_sounds(self, sounds_bg: list, sounds_effect: list):
         self.sounds_bg = sounds_bg
@@ -133,10 +102,7 @@ class SettingMenu:
         self.sounds_effect_volume = 0.4
 
     def click(self):
-        if mouse_button()[0]:
-            if self.button_settings_rect.collidepoint(mouse_pos()):
-                self.display_settings = True
-
+        if mouse_button()[0] and self.display_settings:
             if self.music_button.rect.collidepoint(mouse_pos()):
                 for sound in self.sounds_bg:
                     sound.set_volume(self.sounds_bg_volume) if not self.music_on else sound.set_volume(0)
@@ -152,6 +118,9 @@ class SettingMenu:
 
             if not self.rect.collidepoint(mouse_pos()):
                 self.display_settings = False
+
+        if mouse_button()[0] and self.button_settings_rect.collidepoint(mouse_pos()):
+            self.display_settings = True
 
 
     def change_walker_music(self):

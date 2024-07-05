@@ -1,8 +1,11 @@
+import os
+
 import pygame, sys
 from pygame.math import Vector2 as vector
 from pygame.mouse import get_pressed as mouse_button
 from pygame.mouse import get_pos as mouse_pos
 from pygame.image import load
+import json
 
 from settings import *
 from support import *
@@ -56,7 +59,7 @@ class Editor:
         self.object_timer = Timer(400)
 
         # Player
-        CanvasObject(
+        self.player = CanvasObject(
             pos=(200, WINDOW_HEIGHT / 2),
             frames=self.animations[0]['frames'],
             tile_id=0,
@@ -75,6 +78,44 @@ class Editor:
         self.editor_music = pygame.mixer.Sound('../audio/Explorer.ogg')
         self.editor_music.set_volume(0.4)
         self.editor_music.play(loops=-1)
+
+        self.import_map('save1')
+
+    def import_map(self, map):
+        if os.path.exists(f'../maps/{map}.json'):
+
+            map_level = json.loads(open(f'../maps/{map}.json', 'r').read())
+            for key, value in map_level.items():
+                for pos, obj in value.items():
+                    if obj in range(2, 10):
+                        pos = tuple([int(number) // TILE_SIZE for number in pos.split(', ')])
+                    else:
+                        pos = tuple([int(number) for number in pos.split(', ')])
+                    if obj in range(2, 10):
+                        if pos in self.canvas_data:
+                            self.canvas_data[pos].add_id(obj)
+                        else:
+                            self.canvas_data[pos] = CanvasTile(obj)
+
+                        self.check_neighbors(pos)
+                    elif obj in range(11, 18):
+                        groups = [self.canvas_objects, self.background] if EDITOR_DATA[obj]['style'] == 'palm_bg' else [
+                            self.canvas_objects, self.foreground]
+                        palm = CanvasObject(
+                            pos=pos,
+                            frames=self.animations[obj]['frames'],
+                            tile_id=obj,
+                            origin=self.origin,
+                            group=groups
+                        )
+                        palm.rect.topleft = pos
+                        palm.drag_end(self.origin)
+                    if obj == 0:
+                        self.player.rect.topleft = pos
+                        self.player.drag_end(self.origin)
+                    if obj == 1:
+                        self.sky_handle.rect.topleft = pos
+                        self.sky_handle.drag_end(self.origin)
 
     def get_current_cell(self, obj=None):
         distance_to_origin = vector(mouse_pos()) - self.origin if not obj else vector(
@@ -170,6 +211,16 @@ class Editor:
             'interact obj': {},
         }
 
+        export = {
+            'water': {},
+            'bg palms': {},
+            'terrain': {},
+            'enemies': {},
+            'coins': {},
+            'fg objects': {},
+            'interact obj': {},
+        }
+
         left = sorted(self.canvas_data.keys(), key=lambda tile: tile[0])[0][0]
         top = sorted(self.canvas_data.keys(), key=lambda tile: tile[1])[0][1]
 
@@ -178,21 +229,29 @@ class Editor:
             col_adjusted = tile_pos[0] - left
             x = col_adjusted * TILE_SIZE
             y = row_adjusted * TILE_SIZE
-
             if tile.has_water:
                 layers['water'][(x, y)] = tile.get_water()
+                export['water'][f"{x}, {y}"] = 3
             if tile.has_terrain:
                 layers['terrain'][(x, y)] = tile.get_terrain() if tile.get_terrain() in self.land_tiles else 'X'
+                export['terrain'][f"{x}, {y}"] = 2
             if tile.coin:
                 layers['coins'][(x + TILE_SIZE // 2, y + TILE_SIZE // 2)] = tile.coin
+                export['coins'][f"{x + TILE_SIZE // 2}, {y + TILE_SIZE // 2}"] = tile.coin
             if tile.enemy:
                 layers['enemies'][(x, y)] = tile.enemy
+                export['enemies'][f"{x}, {y}"] = tile.enemy
             if tile.objects:
                 for obj, offset in tile.objects:
                     if obj in [key for key, value in EDITOR_DATA.items() if value['style'] == 'palm_bg']:
                         layers['bg palms'][(int(x + offset.x), int(y + offset.y))] = obj
+                        export['bg palms'][f"{int(x + offset.x)}, {int(y + offset.y)}"] = obj
                     else:
                         layers['fg objects'][(int(x + offset.x), int(y + offset.y))] = obj
+                        export['fg objects'][f"{int(x + offset.x)}, {int(y + offset.y)}"] = obj
+
+        with open('../maps/save1.json', 'w') as js:
+            js.writelines(str(export).replace("'", '"'))
 
         return layers
 
@@ -216,7 +275,6 @@ class Editor:
             self.canvas_remove()
 
             self.create_clouds(event)
-
 
     def pan_input(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN and mouse_button()[1]:
@@ -253,7 +311,9 @@ class Editor:
             self.selection_index = new_index if new_index else self.selection_index
 
     def canvas_add(self):
-        if mouse_button()[0] and not self.menu.rect.collidepoint(mouse_pos()) and not self.object_drag_active and not self.setting_menu.rect.collidepoint(mouse_pos()) and not self.setting_menu.display_settings:
+        if mouse_button()[0] and not self.menu.rect.collidepoint(
+                mouse_pos()) and not self.object_drag_active and not self.setting_menu.rect.collidepoint(
+                mouse_pos()) and not self.setting_menu.display_settings:
             current_cell = self.get_current_cell()
             if EDITOR_DATA[self.selection_index]['type'] == 'tile':
 
@@ -267,8 +327,9 @@ class Editor:
                     self.last_selected_cell = current_cell
             else:
                 if not self.object_timer.active:
-
-                    groups = [self.canvas_objects, self.background] if EDITOR_DATA[self.selection_index]['style'] == 'palm_bg' else [self.canvas_objects, self.foreground]
+                    groups = [self.canvas_objects, self.background] if EDITOR_DATA[self.selection_index][
+                                                                           'style'] == 'palm_bg' else [
+                        self.canvas_objects, self.foreground]
                     CanvasObject(
                         pos=mouse_pos(),
                         frames=self.animations[self.selection_index]['frames'],
