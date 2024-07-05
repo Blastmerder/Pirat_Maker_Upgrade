@@ -785,6 +785,23 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_json"></a>
+  <tt>_json</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
+imports:
+    <a href="#json.decoder">json.decoder</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#json.decoder">json.decoder</a>
+ &#8226;   <a href="#json.encoder">json.encoder</a>
+ &#8226;   <a href="#json.scanner">json.scanner</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_locale"></a>
   <tt>_locale</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
@@ -1686,6 +1703,7 @@ imported by:
  &#8226;   <a href="#encodings.utf_8_sig">encodings.utf_8_sig</a>
  &#8226;   <a href="#encodings.uu_codec">encodings.uu_codec</a>
  &#8226;   <a href="#encodings.zlib_codec">encodings.zlib_codec</a>
+ &#8226;   <a href="#json">json</a>
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#pickle">pickle</a>
  &#8226;   <a href="#plistlib">plistlib</a>
@@ -2071,7 +2089,9 @@ imported by:
   <a target="code" href="///C:/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2/Projects/pythonProject/Pirat_Maker_Upgrade/code/editor.py" type="text/plain"><tt>editor</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#menu">menu</a>
+    <a href="#json">json</a>
+ &#8226;   <a href="#menu">menu</a>
+ &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pygame">pygame</a>
  &#8226;   <a href="#pygame.image">pygame.image</a>
  &#8226;   <a href="#pygame.math">pygame.math</a>
@@ -5565,7 +5585,6 @@ imports:
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
- &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#warnings">warnings</a>
 
@@ -5700,8 +5719,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#importlib">importlib</a>
- &#8226;   <a href="#importlib.abc">importlib.abc</a>
+    <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#packaging.tags">packaging.tags</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
@@ -6260,6 +6278,86 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="json"></a>
+  <a target="code" href="///C:/Users/Blastmerder/AppData/Local/Programs/Python/Python311/Lib/json/__init__.py" type="text/plain"><tt>json</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#codecs">codecs</a>
+ &#8226;   <a href="#json.decoder">json.decoder</a>
+ &#8226;   <a href="#json.encoder">json.encoder</a>
+ &#8226;   <a href="#json.scanner">json.scanner</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#editor">editor</a>
+ &#8226;   <a href="#json.decoder">json.decoder</a>
+ &#8226;   <a href="#json.encoder">json.encoder</a>
+ &#8226;   <a href="#json.scanner">json.scanner</a>
+ &#8226;   <a href="#settings">settings</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="json.decoder"></a>
+  <a target="code" href="///C:/Users/Blastmerder/AppData/Local/Programs/Python/Python311/Lib/json/decoder.py" type="text/plain"><tt>json.decoder</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_json">_json</a>
+ &#8226;   <a href="#json">json</a>
+ &#8226;   <a href="#json.scanner">json.scanner</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#_json">_json</a>
+ &#8226;   <a href="#json">json</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="json.encoder"></a>
+  <a target="code" href="///C:/Users/Blastmerder/AppData/Local/Programs/Python/Python311/Lib/json/encoder.py" type="text/plain"><tt>json.encoder</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_json">_json</a>
+ &#8226;   <a href="#json">json</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#json">json</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="json.scanner"></a>
+  <a target="code" href="///C:/Users/Blastmerder/AppData/Local/Programs/Python/Python311/Lib/json/scanner.py" type="text/plain"><tt>json.scanner</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_json">_json</a>
+ &#8226;   <a href="#json">json</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#json">json</a>
+ &#8226;   <a href="#json.decoder">json.decoder</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="keyword"></a>
   <a target="code" href="///C:/Users/Blastmerder/AppData/Local/Programs/Python/Python311/Lib/keyword.py" type="text/plain"><tt>keyword</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -6710,6 +6808,7 @@ imported by:
  &#8226;   <a href="#configparser">configparser</a>
  &#8226;   <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#editor">editor</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#genericpath">genericpath</a>
@@ -9547,6 +9646,9 @@ imported by:
  &#8226;   <a href="#importlib.metadata._text">importlib.metadata._text</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#ipaddress">ipaddress</a>
+ &#8226;   <a href="#json.decoder">json.decoder</a>
+ &#8226;   <a href="#json.encoder">json.encoder</a>
+ &#8226;   <a href="#json.scanner">json.scanner</a>
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#main.py">main.py</a>
@@ -9749,6 +9851,11 @@ imported by:
   <a name="settings"></a>
   <a target="code" href="///C:/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2/Projects/pythonProject/Pirat_Maker_Upgrade/code/settings.py" type="text/plain"><tt>settings</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#json">json</a>
+
+  </div>
+  <div class="import">
 imported by:
     <a href="#editor">editor</a>
  &#8226;   <a href="#game_settings">game_settings</a>

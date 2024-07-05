@@ -87,11 +87,11 @@ class Editor:
             map_level = json.loads(open(f'../maps/{map}.json', 'r').read())
             for key, value in map_level.items():
                 for pos, obj in value.items():
-                    if obj in range(2, 10):
+                    if obj in range(2, 11):
                         pos = tuple([int(number) // TILE_SIZE for number in pos.split(', ')])
                     else:
                         pos = tuple([int(number) for number in pos.split(', ')])
-                    if obj in range(2, 10):
+                    if obj in range(2, 11):
                         if pos in self.canvas_data:
                             self.canvas_data[pos].add_id(obj)
                         else:
@@ -343,7 +343,7 @@ class Editor:
     # 	print(f'{key}: {value.has_terrain}')
 
     def canvas_remove(self):
-        if mouse_button()[2] and not self.menu.rect.collidepoint(mouse_pos()):
+        if mouse_button()[2] and not self.menu.rect.collidepoint(mouse_pos()) and not self.setting_menu.display_settings:
             # delete object
             selected_object = self.mouse_on_object()
             if selected_object:

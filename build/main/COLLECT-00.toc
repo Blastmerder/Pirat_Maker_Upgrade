@@ -1,0 +1,1979 @@
+([('main.exe',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\build\\main\\main.exe',
+   'EXECUTABLE'),
+  ('python311.dll',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
+   'BINARY'),
+  ('zlib1.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\zlib1.dll',
+   'BINARY'),
+  ('portmidi.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\portmidi.dll',
+   'BINARY'),
+  ('SDL2_image.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\SDL2_image.dll',
+   'BINARY'),
+  ('libmodplug-1.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libmodplug-1.dll',
+   'BINARY'),
+  ('SDL2_mixer.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\SDL2_mixer.dll',
+   'BINARY'),
+  ('libopus-0.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libopus-0.dll',
+   'BINARY'),
+  ('libpng16-16.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libpng16-16.dll',
+   'BINARY'),
+  ('libogg-0.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libogg-0.dll',
+   'BINARY'),
+  ('freetype.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\freetype.dll',
+   'BINARY'),
+  ('libwebp-7.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libwebp-7.dll',
+   'BINARY'),
+  ('SDL2.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\SDL2.dll',
+   'BINARY'),
+  ('SDL2_ttf.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\SDL2_ttf.dll',
+   'BINARY'),
+  ('libjpeg-9.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
+  ('libopusfile-0.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libopusfile-0.dll',
+   'BINARY'),
+  ('libtiff-5.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libtiff-5.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('pygame\\mouse.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\mouse.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\image.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\image.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\math.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\math.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\imageext.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\imageext.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\scrap.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\scrap.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mixer.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\mixer.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mixer_music.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\mixer_music.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\font.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\font.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\_freetype.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\_freetype.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\transform.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\transform.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\time.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\time.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\pixelarray.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\pixelarray.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\mask.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\mask.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\surface.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\surface.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\pixelcopy.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\pixelcopy.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\key.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\key.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\joystick.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\joystick.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\event.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\event.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\draw.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\draw.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\display.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\display.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\bufferproxy.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\bufferproxy.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\color.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\color.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\surflock.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\surflock.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\rwobject.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\rwobject.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\rect.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\rect.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\constants.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\constants.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('pygame\\base.cp311-win_amd64.pyd',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\base.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('pygame\\SDL2.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\SDL2.dll',
+   'BINARY'),
+  ('pygame\\zlib1.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\zlib1.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('pygame\\libogg-0.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libogg-0.dll',
+   'BINARY'),
+  ('pygame\\libopus-0.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libopus-0.dll',
+   'BINARY'),
+  ('pygame\\libjpeg-9.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libjpeg-9.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\Blastmerder\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('pygame\\SDL2_image.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\SDL2_image.dll',
+   'BINARY'),
+  ('pygame\\libpng16-16.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\libpng16-16.dll',
+   'BINARY'),
+  ('pygame\\SDL2_mixer.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\SDL2_mixer.dll',
+   'BINARY'),
+  ('pygame\\SDL2_ttf.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\SDL2_ttf.dll',
+   'BINARY'),
+  ('pygame\\freetype.dll',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\freetype.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('editorData.json',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\code\\editorData.json',
+   'DATA'),
+  ('graphics\\0001.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0001.png',
+   'DATA'),
+  ('graphics\\0002.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0002.png',
+   'DATA'),
+  ('graphics\\0003.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0003.png',
+   'DATA'),
+  ('graphics\\0004.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0004.png',
+   'DATA'),
+  ('graphics\\0005.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0005.png',
+   'DATA'),
+  ('graphics\\0006.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0006.png',
+   'DATA'),
+  ('graphics\\0007.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0007.png',
+   'DATA'),
+  ('graphics\\0008.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0008.png',
+   'DATA'),
+  ('graphics\\0009.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0009.png',
+   'DATA'),
+  ('graphics\\0010.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0010.png',
+   'DATA'),
+  ('graphics\\0011.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0011.png',
+   'DATA'),
+  ('graphics\\0012.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\checkpoint\\0012.png',
+   'DATA'),
+  ('graphics\\Small Cloud 1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\clouds\\Small '
+   'Cloud 1.png',
+   'DATA'),
+  ('graphics\\Small Cloud 2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\clouds\\Small '
+   'Cloud 2.png',
+   'DATA'),
+  ('graphics\\Small Cloud 3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\clouds\\Small '
+   'Cloud 3.png',
+   'DATA'),
+  ('graphics\\bg.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\settings_gui\\bg.png',
+   'DATA'),
+  ('graphics\\checkpoint.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\menu\\checkpoint.png',
+   'DATA'),
+  ('graphics\\diamond.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\diamond.png',
+   'DATA'),
+  ('graphics\\diamond\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\diamond\\0.png',
+   'DATA'),
+  ('graphics\\diamond\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\diamond\\1.png',
+   'DATA'),
+  ('graphics\\diamond\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\diamond\\2.png',
+   'DATA'),
+  ('graphics\\diamond\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\diamond\\3.png',
+   'DATA'),
+  ('graphics\\fall_left\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\fall_left\\1.png',
+   'DATA'),
+  ('graphics\\fall_right\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\fall_right\\1.png',
+   'DATA'),
+  ('graphics\\gold.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\gold.png',
+   'DATA'),
+  ('graphics\\gold\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\gold\\0.png',
+   'DATA'),
+  ('graphics\\gold\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\gold\\1.png',
+   'DATA'),
+  ('graphics\\gold\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\gold\\2.png',
+   'DATA'),
+  ('graphics\\gold\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\gold\\3.png',
+   'DATA'),
+  ('graphics\\handle.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\cursors\\handle.png',
+   'DATA'),
+  ('graphics\\idle_left\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_left\\1.png',
+   'DATA'),
+  ('graphics\\idle_left\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_left\\2.png',
+   'DATA'),
+  ('graphics\\idle_left\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_left\\3.png',
+   'DATA'),
+  ('graphics\\idle_left\\4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_left\\4.png',
+   'DATA'),
+  ('graphics\\idle_left\\5.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_left\\5.png',
+   'DATA'),
+  ('graphics\\idle_right\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_right\\1.png',
+   'DATA'),
+  ('graphics\\idle_right\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_right\\2.png',
+   'DATA'),
+  ('graphics\\idle_right\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_right\\3.png',
+   'DATA'),
+  ('graphics\\idle_right\\4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_right\\4.png',
+   'DATA'),
+  ('graphics\\idle_right\\5.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\idle_right\\5.png',
+   'DATA'),
+  ('graphics\\jump_left\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\jump_left\\1.png',
+   'DATA'),
+  ('graphics\\jump_right\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\jump_right\\1.png',
+   'DATA'),
+  ('graphics\\land.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\menu\\land.png',
+   'DATA'),
+  ('graphics\\land\\A.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\A.png',
+   'DATA'),
+  ('graphics\\land\\AB.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AB.png',
+   'DATA'),
+  ('graphics\\land\\ABC.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABC.png',
+   'DATA'),
+  ('graphics\\land\\ABCD.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCD.png',
+   'DATA'),
+  ('graphics\\land\\ABCDE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDE.png',
+   'DATA'),
+  ('graphics\\land\\ABCDEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDEF.png',
+   'DATA'),
+  ('graphics\\land\\ABCDEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDEFG.png',
+   'DATA'),
+  ('graphics\\land\\ABCDEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDEFGH.png',
+   'DATA'),
+  ('graphics\\land\\ABCDEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDEFH.png',
+   'DATA'),
+  ('graphics\\land\\ABCDEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDEG.png',
+   'DATA'),
+  ('graphics\\land\\ABCDEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDEGH.png',
+   'DATA'),
+  ('graphics\\land\\ABCDEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDEH.png',
+   'DATA'),
+  ('graphics\\land\\ABCDF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDF.png',
+   'DATA'),
+  ('graphics\\land\\ABCDFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDFG.png',
+   'DATA'),
+  ('graphics\\land\\ABCDFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDFGH.png',
+   'DATA'),
+  ('graphics\\land\\ABCDFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDFH.png',
+   'DATA'),
+  ('graphics\\land\\ABCDG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDG.png',
+   'DATA'),
+  ('graphics\\land\\ABCDGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDGH.png',
+   'DATA'),
+  ('graphics\\land\\ABCDH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCDH.png',
+   'DATA'),
+  ('graphics\\land\\ABCE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCE.png',
+   'DATA'),
+  ('graphics\\land\\ABCEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCEF.png',
+   'DATA'),
+  ('graphics\\land\\ABCEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCEFG.png',
+   'DATA'),
+  ('graphics\\land\\ABCEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCEFGH.png',
+   'DATA'),
+  ('graphics\\land\\ABCEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCEFH.png',
+   'DATA'),
+  ('graphics\\land\\ABCEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCEG.png',
+   'DATA'),
+  ('graphics\\land\\ABCEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCEGH.png',
+   'DATA'),
+  ('graphics\\land\\ABCEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCEH.png',
+   'DATA'),
+  ('graphics\\land\\ABCF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCF.png',
+   'DATA'),
+  ('graphics\\land\\ABCFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCFG.png',
+   'DATA'),
+  ('graphics\\land\\ABCFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCFGH.png',
+   'DATA'),
+  ('graphics\\land\\ABCFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCFH.png',
+   'DATA'),
+  ('graphics\\land\\ABCG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCG.png',
+   'DATA'),
+  ('graphics\\land\\ABCGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCGH.png',
+   'DATA'),
+  ('graphics\\land\\ABCH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABCH.png',
+   'DATA'),
+  ('graphics\\land\\ABD.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABD.png',
+   'DATA'),
+  ('graphics\\land\\ABDE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDE.png',
+   'DATA'),
+  ('graphics\\land\\ABDEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDEF.png',
+   'DATA'),
+  ('graphics\\land\\ABDEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDEFG.png',
+   'DATA'),
+  ('graphics\\land\\ABDEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDEFGH.png',
+   'DATA'),
+  ('graphics\\land\\ABDEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDEFH.png',
+   'DATA'),
+  ('graphics\\land\\ABDEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDEG.png',
+   'DATA'),
+  ('graphics\\land\\ABDEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDEGH.png',
+   'DATA'),
+  ('graphics\\land\\ABDEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDEH.png',
+   'DATA'),
+  ('graphics\\land\\ABDFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDFGH.png',
+   'DATA'),
+  ('graphics\\land\\ABDG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDG.png',
+   'DATA'),
+  ('graphics\\land\\ABDGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABDGH.png',
+   'DATA'),
+  ('graphics\\land\\ABE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABE.png',
+   'DATA'),
+  ('graphics\\land\\ABEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABEF.png',
+   'DATA'),
+  ('graphics\\land\\ABEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABEFG.png',
+   'DATA'),
+  ('graphics\\land\\ABEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABEFGH.png',
+   'DATA'),
+  ('graphics\\land\\ABEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABEFH.png',
+   'DATA'),
+  ('graphics\\land\\ABEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABEG.png',
+   'DATA'),
+  ('graphics\\land\\ABEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABEGH.png',
+   'DATA'),
+  ('graphics\\land\\ABEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABEH.png',
+   'DATA'),
+  ('graphics\\land\\ABFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABFG.png',
+   'DATA'),
+  ('graphics\\land\\ABFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABFGH.png',
+   'DATA'),
+  ('graphics\\land\\ABG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABG.png',
+   'DATA'),
+  ('graphics\\land\\ABGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABGH.png',
+   'DATA'),
+  ('graphics\\land\\ABH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ABH.png',
+   'DATA'),
+  ('graphics\\land\\AC.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AC.png',
+   'DATA'),
+  ('graphics\\land\\ACD.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACD.png',
+   'DATA'),
+  ('graphics\\land\\ACDE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDE.png',
+   'DATA'),
+  ('graphics\\land\\ACDEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDEF.png',
+   'DATA'),
+  ('graphics\\land\\ACDEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDEFG.png',
+   'DATA'),
+  ('graphics\\land\\ACDEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDEFGH.png',
+   'DATA'),
+  ('graphics\\land\\ACDEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDEFH.png',
+   'DATA'),
+  ('graphics\\land\\ACDEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDEG.png',
+   'DATA'),
+  ('graphics\\land\\ACDEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDEGH.png',
+   'DATA'),
+  ('graphics\\land\\ACDEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDEH.png',
+   'DATA'),
+  ('graphics\\land\\ACDF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDF.png',
+   'DATA'),
+  ('graphics\\land\\ACDFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDFG.png',
+   'DATA'),
+  ('graphics\\land\\ACDFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDFGH.png',
+   'DATA'),
+  ('graphics\\land\\ACDFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDFH.png',
+   'DATA'),
+  ('graphics\\land\\ACDG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDG.png',
+   'DATA'),
+  ('graphics\\land\\ACDGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDGH.png',
+   'DATA'),
+  ('graphics\\land\\ACDH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACDH.png',
+   'DATA'),
+  ('graphics\\land\\ACE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACE.png',
+   'DATA'),
+  ('graphics\\land\\ACEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACEF.png',
+   'DATA'),
+  ('graphics\\land\\ACEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACEFG.png',
+   'DATA'),
+  ('graphics\\land\\ACEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACEFGH.png',
+   'DATA'),
+  ('graphics\\land\\ACEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACEFH.png',
+   'DATA'),
+  ('graphics\\land\\ACEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACEG.png',
+   'DATA'),
+  ('graphics\\land\\ACEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACEGH.png',
+   'DATA'),
+  ('graphics\\land\\ACEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACEH.png',
+   'DATA'),
+  ('graphics\\land\\ACF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACF.png',
+   'DATA'),
+  ('graphics\\land\\ACFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACFG.png',
+   'DATA'),
+  ('graphics\\land\\ACFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACFGH.png',
+   'DATA'),
+  ('graphics\\land\\ACG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACG.png',
+   'DATA'),
+  ('graphics\\land\\ACGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACGH.png',
+   'DATA'),
+  ('graphics\\land\\ACH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ACH.png',
+   'DATA'),
+  ('graphics\\land\\AD.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AD.png',
+   'DATA'),
+  ('graphics\\land\\ADE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADE.png',
+   'DATA'),
+  ('graphics\\land\\ADEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADEF.png',
+   'DATA'),
+  ('graphics\\land\\ADEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADEFG.png',
+   'DATA'),
+  ('graphics\\land\\ADEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADEFGH.png',
+   'DATA'),
+  ('graphics\\land\\ADEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADEFH.png',
+   'DATA'),
+  ('graphics\\land\\ADEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADEG.png',
+   'DATA'),
+  ('graphics\\land\\ADEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADEGH.png',
+   'DATA'),
+  ('graphics\\land\\ADEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADEH.png',
+   'DATA'),
+  ('graphics\\land\\ADF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADF.png',
+   'DATA'),
+  ('graphics\\land\\ADFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADFG.png',
+   'DATA'),
+  ('graphics\\land\\ADFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADFGH.png',
+   'DATA'),
+  ('graphics\\land\\ADFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADFH.png',
+   'DATA'),
+  ('graphics\\land\\ADG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADG.png',
+   'DATA'),
+  ('graphics\\land\\ADGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADGH.png',
+   'DATA'),
+  ('graphics\\land\\ADH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\ADH.png',
+   'DATA'),
+  ('graphics\\land\\AE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AE.png',
+   'DATA'),
+  ('graphics\\land\\AEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AEF.png',
+   'DATA'),
+  ('graphics\\land\\AEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AEFG.png',
+   'DATA'),
+  ('graphics\\land\\AEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AEFGH.png',
+   'DATA'),
+  ('graphics\\land\\AEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AEFH.png',
+   'DATA'),
+  ('graphics\\land\\AEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AEG.png',
+   'DATA'),
+  ('graphics\\land\\AEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AEGH.png',
+   'DATA'),
+  ('graphics\\land\\AEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AEH.png',
+   'DATA'),
+  ('graphics\\land\\AF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AF.png',
+   'DATA'),
+  ('graphics\\land\\AFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AFG.png',
+   'DATA'),
+  ('graphics\\land\\AFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AFGH.png',
+   'DATA'),
+  ('graphics\\land\\AFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AFH.png',
+   'DATA'),
+  ('graphics\\land\\AG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AG.png',
+   'DATA'),
+  ('graphics\\land\\AGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AGH.png',
+   'DATA'),
+  ('graphics\\land\\AH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\AH.png',
+   'DATA'),
+  ('graphics\\land\\BC.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BC.png',
+   'DATA'),
+  ('graphics\\land\\BCD.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCD.png',
+   'DATA'),
+  ('graphics\\land\\BCDE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDE.png',
+   'DATA'),
+  ('graphics\\land\\BCDEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDEF.png',
+   'DATA'),
+  ('graphics\\land\\BCDEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDEFG.png',
+   'DATA'),
+  ('graphics\\land\\BCDEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDEFGH.png',
+   'DATA'),
+  ('graphics\\land\\BCDEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDEFH.png',
+   'DATA'),
+  ('graphics\\land\\BCDEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDEG.png',
+   'DATA'),
+  ('graphics\\land\\BCDEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDEGH.png',
+   'DATA'),
+  ('graphics\\land\\BCDEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDEH.png',
+   'DATA'),
+  ('graphics\\land\\BCDF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDF.png',
+   'DATA'),
+  ('graphics\\land\\BCDFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDFG.png',
+   'DATA'),
+  ('graphics\\land\\BCDFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDFGH.png',
+   'DATA'),
+  ('graphics\\land\\BCDFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDFH.png',
+   'DATA'),
+  ('graphics\\land\\BCDG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDG.png',
+   'DATA'),
+  ('graphics\\land\\BCDGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDGH.png',
+   'DATA'),
+  ('graphics\\land\\BCDH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCDH.png',
+   'DATA'),
+  ('graphics\\land\\BCE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCE.png',
+   'DATA'),
+  ('graphics\\land\\BCEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCEF.png',
+   'DATA'),
+  ('graphics\\land\\BCEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCEFG.png',
+   'DATA'),
+  ('graphics\\land\\BCEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCEFGH.png',
+   'DATA'),
+  ('graphics\\land\\BCEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCEFH.png',
+   'DATA'),
+  ('graphics\\land\\BCEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCEG.png',
+   'DATA'),
+  ('graphics\\land\\BCEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCEGH.png',
+   'DATA'),
+  ('graphics\\land\\BCEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCEH.png',
+   'DATA'),
+  ('graphics\\land\\BCF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCF.png',
+   'DATA'),
+  ('graphics\\land\\BCFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCFG.png',
+   'DATA'),
+  ('graphics\\land\\BCFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCFGH.png',
+   'DATA'),
+  ('graphics\\land\\BCFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCFH.png',
+   'DATA'),
+  ('graphics\\land\\BCG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCG.png',
+   'DATA'),
+  ('graphics\\land\\BCGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCGH.png',
+   'DATA'),
+  ('graphics\\land\\BCH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BCH.png',
+   'DATA'),
+  ('graphics\\land\\BDE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDE.png',
+   'DATA'),
+  ('graphics\\land\\BDEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDEF.png',
+   'DATA'),
+  ('graphics\\land\\BDEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDEFG.png',
+   'DATA'),
+  ('graphics\\land\\BDEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDEFGH.png',
+   'DATA'),
+  ('graphics\\land\\BDEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDEFH.png',
+   'DATA'),
+  ('graphics\\land\\BDEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDEG.png',
+   'DATA'),
+  ('graphics\\land\\BDEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDEGH.png',
+   'DATA'),
+  ('graphics\\land\\BDEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDEH.png',
+   'DATA'),
+  ('graphics\\land\\BDFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDFG.png',
+   'DATA'),
+  ('graphics\\land\\BDFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDFGH.png',
+   'DATA'),
+  ('graphics\\land\\BDG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BDG.png',
+   'DATA'),
+  ('graphics\\land\\BE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BE.png',
+   'DATA'),
+  ('graphics\\land\\BEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BEF.png',
+   'DATA'),
+  ('graphics\\land\\BEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BEFG.png',
+   'DATA'),
+  ('graphics\\land\\BEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BEFGH.png',
+   'DATA'),
+  ('graphics\\land\\BEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BEFH.png',
+   'DATA'),
+  ('graphics\\land\\BEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BEG.png',
+   'DATA'),
+  ('graphics\\land\\BEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BEH.png',
+   'DATA'),
+  ('graphics\\land\\BFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BFG.png',
+   'DATA'),
+  ('graphics\\land\\BFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BFGH.png',
+   'DATA'),
+  ('graphics\\land\\BG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BG.png',
+   'DATA'),
+  ('graphics\\land\\BGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BGH.png',
+   'DATA'),
+  ('graphics\\land\\BH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\BH.png',
+   'DATA'),
+  ('graphics\\land\\C.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\C.png',
+   'DATA'),
+  ('graphics\\land\\CD.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CD.png',
+   'DATA'),
+  ('graphics\\land\\CDE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDE.png',
+   'DATA'),
+  ('graphics\\land\\CDEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDEF.png',
+   'DATA'),
+  ('graphics\\land\\CDEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDEFG.png',
+   'DATA'),
+  ('graphics\\land\\CDEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDEFGH.png',
+   'DATA'),
+  ('graphics\\land\\CDEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDEFH.png',
+   'DATA'),
+  ('graphics\\land\\CDEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDEG.png',
+   'DATA'),
+  ('graphics\\land\\CDEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDEGH.png',
+   'DATA'),
+  ('graphics\\land\\CDEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDEH.png',
+   'DATA'),
+  ('graphics\\land\\CDF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDF.png',
+   'DATA'),
+  ('graphics\\land\\CDFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDFG.png',
+   'DATA'),
+  ('graphics\\land\\CDFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDFGH.png',
+   'DATA'),
+  ('graphics\\land\\CDG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDG.png',
+   'DATA'),
+  ('graphics\\land\\CDGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDGH.png',
+   'DATA'),
+  ('graphics\\land\\CDH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CDH.png',
+   'DATA'),
+  ('graphics\\land\\CE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CE.png',
+   'DATA'),
+  ('graphics\\land\\CEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CEF.png',
+   'DATA'),
+  ('graphics\\land\\CEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CEFG.png',
+   'DATA'),
+  ('graphics\\land\\CEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CEFGH.png',
+   'DATA'),
+  ('graphics\\land\\CEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CEFH.png',
+   'DATA'),
+  ('graphics\\land\\CEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CEG.png',
+   'DATA'),
+  ('graphics\\land\\CEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CEGH.png',
+   'DATA'),
+  ('graphics\\land\\CEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CEH.png',
+   'DATA'),
+  ('graphics\\land\\CF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CF.png',
+   'DATA'),
+  ('graphics\\land\\CFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CFG.png',
+   'DATA'),
+  ('graphics\\land\\CFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CFGH.png',
+   'DATA'),
+  ('graphics\\land\\CFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CFH.png',
+   'DATA'),
+  ('graphics\\land\\CG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CG.png',
+   'DATA'),
+  ('graphics\\land\\CGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CGH.png',
+   'DATA'),
+  ('graphics\\land\\CH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\CH.png',
+   'DATA'),
+  ('graphics\\land\\DE.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DE.png',
+   'DATA'),
+  ('graphics\\land\\DEF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DEF.png',
+   'DATA'),
+  ('graphics\\land\\DEFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DEFG.png',
+   'DATA'),
+  ('graphics\\land\\DEFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DEFGH.png',
+   'DATA'),
+  ('graphics\\land\\DEFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DEFH.png',
+   'DATA'),
+  ('graphics\\land\\DEG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DEG.png',
+   'DATA'),
+  ('graphics\\land\\DEGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DEGH.png',
+   'DATA'),
+  ('graphics\\land\\DEH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DEH.png',
+   'DATA'),
+  ('graphics\\land\\DFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DFG.png',
+   'DATA'),
+  ('graphics\\land\\DFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DFGH.png',
+   'DATA'),
+  ('graphics\\land\\DG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DG.png',
+   'DATA'),
+  ('graphics\\land\\DGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\DGH.png',
+   'DATA'),
+  ('graphics\\land\\E.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\E.png',
+   'DATA'),
+  ('graphics\\land\\EF.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\EF.png',
+   'DATA'),
+  ('graphics\\land\\EFG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\EFG.png',
+   'DATA'),
+  ('graphics\\land\\EFGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\EFGH.png',
+   'DATA'),
+  ('graphics\\land\\EFH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\EFH.png',
+   'DATA'),
+  ('graphics\\land\\EG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\EG.png',
+   'DATA'),
+  ('graphics\\land\\EGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\EGH.png',
+   'DATA'),
+  ('graphics\\land\\EH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\EH.png',
+   'DATA'),
+  ('graphics\\land\\FG.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\FG.png',
+   'DATA'),
+  ('graphics\\land\\FGH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\FGH.png',
+   'DATA'),
+  ('graphics\\land\\G.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\G.png',
+   'DATA'),
+  ('graphics\\land\\GH.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\GH.png',
+   'DATA'),
+  ('graphics\\land\\X.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\land\\X.png',
+   'DATA'),
+  ('graphics\\large_bg.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\large_bg.png',
+   'DATA'),
+  ('graphics\\large_fg.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\large_fg.png',
+   'DATA'),
+  ('graphics\\left_bg.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\menu\\left_bg.png',
+   'DATA'),
+  ('graphics\\left_fg.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\left_fg.png',
+   'DATA'),
+  ('graphics\\mouse.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\cursors\\mouse.png',
+   'DATA'),
+  ('graphics\\palm\\large_bg\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\large_bg\\0.png',
+   'DATA'),
+  ('graphics\\palm\\large_bg\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\large_bg\\1.png',
+   'DATA'),
+  ('graphics\\palm\\large_bg\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\large_bg\\2.png',
+   'DATA'),
+  ('graphics\\palm\\large_bg\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\large_bg\\3.png',
+   'DATA'),
+  ('graphics\\palm\\large_fg\\large_1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\large_fg\\large_1.png',
+   'DATA'),
+  ('graphics\\palm\\large_fg\\large_2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\large_fg\\large_2.png',
+   'DATA'),
+  ('graphics\\palm\\large_fg\\large_3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\large_fg\\large_3.png',
+   'DATA'),
+  ('graphics\\palm\\large_fg\\large_4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\large_fg\\large_4.png',
+   'DATA'),
+  ('graphics\\palm\\left_bg\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\left_bg\\0.png',
+   'DATA'),
+  ('graphics\\palm\\left_bg\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\left_bg\\1.png',
+   'DATA'),
+  ('graphics\\palm\\left_bg\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\left_bg\\2.png',
+   'DATA'),
+  ('graphics\\palm\\left_bg\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\left_bg\\3.png',
+   'DATA'),
+  ('graphics\\palm\\left_fg\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\left_fg\\0.png',
+   'DATA'),
+  ('graphics\\palm\\left_fg\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\left_fg\\1.png',
+   'DATA'),
+  ('graphics\\palm\\left_fg\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\left_fg\\2.png',
+   'DATA'),
+  ('graphics\\palm\\left_fg\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\left_fg\\3.png',
+   'DATA'),
+  ('graphics\\palm\\right_bg\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\right_bg\\0.png',
+   'DATA'),
+  ('graphics\\palm\\right_bg\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\right_bg\\1.png',
+   'DATA'),
+  ('graphics\\palm\\right_bg\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\right_bg\\2.png',
+   'DATA'),
+  ('graphics\\palm\\right_bg\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\right_bg\\3.png',
+   'DATA'),
+  ('graphics\\palm\\right_fg\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\right_fg\\0.png',
+   'DATA'),
+  ('graphics\\palm\\right_fg\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\right_fg\\1.png',
+   'DATA'),
+  ('graphics\\palm\\right_fg\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\right_fg\\2.png',
+   'DATA'),
+  ('graphics\\palm\\right_fg\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\right_fg\\3.png',
+   'DATA'),
+  ('graphics\\palm\\small_bg\\bg_palm_1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\small_bg\\bg_palm_1.png',
+   'DATA'),
+  ('graphics\\palm\\small_bg\\bg_palm_2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\small_bg\\bg_palm_2.png',
+   'DATA'),
+  ('graphics\\palm\\small_bg\\bg_palm_3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\small_bg\\bg_palm_3.png',
+   'DATA'),
+  ('graphics\\palm\\small_bg\\bg_palm_4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\small_bg\\bg_palm_4.png',
+   'DATA'),
+  ('graphics\\palm\\small_fg\\small_1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\small_fg\\small_1.png',
+   'DATA'),
+  ('graphics\\palm\\small_fg\\small_2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\small_fg\\small_2.png',
+   'DATA'),
+  ('graphics\\palm\\small_fg\\small_3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\small_fg\\small_3.png',
+   'DATA'),
+  ('graphics\\palm\\small_fg\\small_4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\palm\\small_fg\\small_4.png',
+   'DATA'),
+  ('graphics\\particle\\01.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\particle\\01.png',
+   'DATA'),
+  ('graphics\\particle\\02.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\particle\\02.png',
+   'DATA'),
+  ('graphics\\particle\\03.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\particle\\03.png',
+   'DATA'),
+  ('graphics\\pearl\\pearl.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\pearl\\pearl.png',
+   'DATA'),
+  ('graphics\\right_bg.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\right_bg.png',
+   'DATA'),
+  ('graphics\\right_fg.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\menu\\right_fg.png',
+   'DATA'),
+  ('graphics\\run_left\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_left\\1.png',
+   'DATA'),
+  ('graphics\\run_left\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_left\\2.png',
+   'DATA'),
+  ('graphics\\run_left\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_left\\3.png',
+   'DATA'),
+  ('graphics\\run_left\\4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_left\\4.png',
+   'DATA'),
+  ('graphics\\run_left\\5.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_left\\5.png',
+   'DATA'),
+  ('graphics\\run_left\\6.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_left\\6.png',
+   'DATA'),
+  ('graphics\\run_right\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_right\\1.png',
+   'DATA'),
+  ('graphics\\run_right\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_right\\2.png',
+   'DATA'),
+  ('graphics\\run_right\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_right\\3.png',
+   'DATA'),
+  ('graphics\\run_right\\4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_right\\4.png',
+   'DATA'),
+  ('graphics\\run_right\\5.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_right\\5.png',
+   'DATA'),
+  ('graphics\\run_right\\6.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\player\\run_right\\6.png',
+   'DATA'),
+  ('graphics\\settings.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\settings_gui\\settings.png',
+   'DATA'),
+  ('graphics\\settings_selected.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\settings_gui\\settings_selected.png',
+   'DATA'),
+  ('graphics\\shell_left.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\menu\\shell_left.png',
+   'DATA'),
+  ('graphics\\shell_left\\attack\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_left\\attack\\1.png',
+   'DATA'),
+  ('graphics\\shell_left\\attack\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_left\\attack\\2.png',
+   'DATA'),
+  ('graphics\\shell_left\\attack\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_left\\attack\\3.png',
+   'DATA'),
+  ('graphics\\shell_left\\attack\\4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_left\\attack\\4.png',
+   'DATA'),
+  ('graphics\\shell_left\\attack\\5.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_left\\attack\\5.png',
+   'DATA'),
+  ('graphics\\shell_left\\idle\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_left\\idle\\1.png',
+   'DATA'),
+  ('graphics\\shell_right.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\shell_right.png',
+   'DATA'),
+  ('graphics\\shell_right\\attack\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_right\\attack\\1.png',
+   'DATA'),
+  ('graphics\\shell_right\\attack\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_right\\attack\\2.png',
+   'DATA'),
+  ('graphics\\shell_right\\attack\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_right\\attack\\3.png',
+   'DATA'),
+  ('graphics\\shell_right\\attack\\4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_right\\attack\\4.png',
+   'DATA'),
+  ('graphics\\shell_right\\attack\\5.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_right\\attack\\5.png',
+   'DATA'),
+  ('graphics\\shell_right\\idle\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\shell_right\\idle\\1.png',
+   'DATA'),
+  ('graphics\\silver.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\menu\\silver.png',
+   'DATA'),
+  ('graphics\\silver\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\silver\\0.png',
+   'DATA'),
+  ('graphics\\silver\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\silver\\1.png',
+   'DATA'),
+  ('graphics\\silver\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\silver\\2.png',
+   'DATA'),
+  ('graphics\\silver\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\items\\silver\\3.png',
+   'DATA'),
+  ('graphics\\small_bg.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\menu\\small_bg.png',
+   'DATA'),
+  ('graphics\\small_fg.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\small_fg.png',
+   'DATA'),
+  ('graphics\\spikes.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\menu\\spikes.png',
+   'DATA'),
+  ('graphics\\spikes\\spikes.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\spikes\\spikes.png',
+   'DATA'),
+  ('graphics\\tooth.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\tooth.png',
+   'DATA'),
+  ('graphics\\tooth\\idle\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\idle\\0.png',
+   'DATA'),
+  ('graphics\\tooth\\idle\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\idle\\1.png',
+   'DATA'),
+  ('graphics\\tooth\\idle\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\idle\\2.png',
+   'DATA'),
+  ('graphics\\tooth\\idle\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\idle\\3.png',
+   'DATA'),
+  ('graphics\\tooth\\idle\\4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\idle\\4.png',
+   'DATA'),
+  ('graphics\\tooth\\idle\\5.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\idle\\5.png',
+   'DATA'),
+  ('graphics\\tooth\\idle\\6.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\idle\\6.png',
+   'DATA'),
+  ('graphics\\tooth\\idle\\7.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\idle\\7.png',
+   'DATA'),
+  ('graphics\\tooth\\run_left\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_left\\1.png',
+   'DATA'),
+  ('graphics\\tooth\\run_left\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_left\\2.png',
+   'DATA'),
+  ('graphics\\tooth\\run_left\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_left\\3.png',
+   'DATA'),
+  ('graphics\\tooth\\run_left\\4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_left\\4.png',
+   'DATA'),
+  ('graphics\\tooth\\run_left\\5.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_left\\5.png',
+   'DATA'),
+  ('graphics\\tooth\\run_left\\6.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_left\\6.png',
+   'DATA'),
+  ('graphics\\tooth\\run_right\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_right\\1.png',
+   'DATA'),
+  ('graphics\\tooth\\run_right\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_right\\2.png',
+   'DATA'),
+  ('graphics\\tooth\\run_right\\3.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_right\\3.png',
+   'DATA'),
+  ('graphics\\tooth\\run_right\\4.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_right\\4.png',
+   'DATA'),
+  ('graphics\\tooth\\run_right\\5.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_right\\5.png',
+   'DATA'),
+  ('graphics\\tooth\\run_right\\6.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\enemies\\tooth\\run_right\\6.png',
+   'DATA'),
+  ('graphics\\volume_music.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\settings_gui\\volume_music.png',
+   'DATA'),
+  ('graphics\\volume_music_off.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\settings_gui\\volume_music_off.png',
+   'DATA'),
+  ('graphics\\volume_sounds.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\settings_gui\\volume_sounds.png',
+   'DATA'),
+  ('graphics\\volume_sounds_off.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\settings_gui\\volume_sounds_off.png',
+   'DATA'),
+  ('graphics\\water.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\preview\\water.png',
+   'DATA'),
+  ('graphics\\water\\animation\\0.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\water\\animation\\0.png',
+   'DATA'),
+  ('graphics\\water\\animation\\1.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\water\\animation\\1.png',
+   'DATA'),
+  ('graphics\\water\\animation\\2.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\water\\animation\\2.png',
+   'DATA'),
+  ('graphics\\water\\water_bottom.png',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\graphics\\terrain\\water\\water_bottom.png',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\build\\main\\base_library.zip',
+   'DATA'),
+  ('pygame\\freesansbold.ttf',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\freesansbold.ttf',
+   'DATA'),
+  ('pygame\\pygame_icon.bmp',
+   'C:\\панель '
+   'инструментов\\Projects\\pythonProject\\Pirat_Maker_Upgrade\\.venv\\Lib\\site-packages\\pygame\\pygame_icon.bmp',
+   'DATA')],)

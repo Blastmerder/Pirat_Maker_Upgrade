@@ -48,7 +48,6 @@ class Level:
 
         self.setting_menu = setting_menu
 
-
     def build_level(self, grid, asset_dict, jump_sound):
         for layer_name, layer in grid.items():
             for pos, data in layer.items():
@@ -64,65 +63,42 @@ class Level:
                 match data:
 
                     case 0:
-                        self.player = Player(pos, asset_dict['player'], self.all_sprites, self.collision_sprites, jump_sound)
+                        self.player = Player(pos, asset_dict['player'], self.all_sprites, self.collision_sprites,
+                                             jump_sound)
                     case 1:
                         self.horizon_y = pos[1]
                         self.all_sprites.horizon_y = pos[1]
 
-                    # coins
-                    case 4:
-                        Coin('gold', asset_dict['gold'], pos, [self.all_sprites, self.coin_sprites])
-                    case 5:
-                        Coin('silver', asset_dict['silver'], pos, [self.all_sprites, self.coin_sprites])
-                    case 6:
-                        Coin('diamond', asset_dict['diamond'], pos, [self.all_sprites, self.coin_sprites])
-
-                    # enemies
-                    case 7: Spikes(asset_dict['spikes'], pos, [self.all_sprites, self.damage_sprites])
+                # enemies
+                    case 7:
+                        Spikes(asset_dict['spikes'], pos, [self.all_sprites, self.damage_sprites])
                     case 8:
                         Tooth(asset_dict['tooth'], pos, [self.all_sprites, self.damage_sprites], self.collision_sprites)
 
-                    case 9:
-                        Shell(orientation='left',
-                              assets=asset_dict['shell'],
-                              pos=pos,
-                              group=[self.all_sprites, self.collision_sprites, self.shell_sprites],
-                              pearl_surf=asset_dict['pearl'],
-                              damage_sprites=self.damage_sprites
-                              )
-                    case 10:
-                        Shell(orientation='right',
-                              assets=asset_dict['shell'],
-                              pos=pos,
-                              group=[self.all_sprites, self.collision_sprites, self.shell_sprites],
-                              pearl_surf=asset_dict['pearl'],
-                              damage_sprites=self.damage_sprites
-                              )
+                if data in [4, 5, 6]:
+                    Coin(EDITOR_DATA[data]['on_level'], asset_dict['gold'], pos, [self.all_sprites, self.coin_sprites])
 
+                # coins
+                if data in [9, 10]:
+                    Shell(orientation=EDITOR_DATA[data]['on_level'],
+                          assets=asset_dict['shell'],
+                          pos=pos,
+                          group=[self.all_sprites, self.collision_sprites, self.shell_sprites],
+                          pearl_surf=asset_dict['pearl'],
+                          damage_sprites=self.damage_sprites
+                          )
 
+                if data in range(11, 14):
                     # palms
-                    case 11:
-                        Animated(asset_dict['palms']['small_fg'], pos, self.all_sprites)
-                        Block(pos, (76, 50), self.collision_sprites)
-                    case 12:
-                        Animated(asset_dict['palms']['large_fg'], pos, self.all_sprites)
-                        Block(pos, (76, 50), self.collision_sprites)
-                    case 13:
-                        Animated(asset_dict['palms']['left_fg'], pos, self.all_sprites)
-                        Block(pos, (76, 50), self.collision_sprites)
-                    case 14:
-                        Animated(asset_dict['palms']['right_fg'], pos, self.all_sprites)
+                    if data == 14:
+                        Animated(asset_dict['palms'][EDITOR_DATA[data]['on_level']], pos, self.all_sprites)
                         Block(pos + vector(50, 0), (76, 50), self.collision_sprites)
-
-
-                    case 15:
-                        Animated(asset_dict['palms']['small_bg'], pos, self.all_sprites, LEVEL_LAYERS['bg'])
-                    case 16:
-                        Animated(asset_dict['palms']['large_bg'], pos, self.all_sprites, LEVEL_LAYERS['bg'])
-                    case 17:
-                        Animated(asset_dict['palms']['left_bg'], pos, self.all_sprites, LEVEL_LAYERS['bg'])
-                    case 18:
-                        Animated(asset_dict['palms']['right_bg'], pos, self.all_sprites, LEVEL_LAYERS['bg'])
+                    else:
+                        Animated(asset_dict['palms'][EDITOR_DATA[data]['on_level']], pos, self.all_sprites)
+                        Block(pos, (76, 50), self.collision_sprites)
+                if data in range(14, 18):
+                    Animated(asset_dict['palms'][EDITOR_DATA[data]['on_level']], pos, self.all_sprites,
+                             LEVEL_LAYERS['bg'])
         for sprite in self.shell_sprites:
             sprite.player = self.player
 
@@ -133,7 +109,8 @@ class Level:
             Particle(self.particle_surfs, sprite.rect.center, self.all_sprites)
 
     def get_damage(self):
-        collision_sprites = pygame.sprite.spritecollide(self.player, self.damage_sprites, False, pygame.sprite.collide_mask)
+        collision_sprites = pygame.sprite.spritecollide(self.player, self.damage_sprites, False,
+                                                        pygame.sprite.collide_mask)
         if collision_sprites:
             self.hit_sound.play()
             self.player.damage()
@@ -156,10 +133,8 @@ class Level:
             if event.type == pygame.MOUSEBUTTONDOWN:
                 self.setting_menu.click()
 
-
-
     def startup_clouds(self):
-        for i in range((self.level_limit['right'] - self.level_limit['left'])//50):
+        for i in range((self.level_limit['right'] - self.level_limit['left']) // 50):
             surf = choice(self.cloud_surfs)
             surf = pygame.transform.scale2x(surf) if randint(0, 5) > 3 else surf
             x = randint(self.level_limit['left'], self.level_limit['right'])

@@ -41,7 +41,8 @@
     "menu": "coin",
     "menu_surf": "../graphics/menu/gold.png",
     "preview": "../graphics/preview/gold.png",
-    "graphics": "../graphics/items/gold"
+    "graphics": "../graphics/items/gold",
+    "on_level": "gold"
     
   },
   "5": {
@@ -50,7 +51,8 @@
     "menu": "coin",
     "menu_surf": "../graphics/menu/silver.png",
     "preview": "../graphics/preview/silver.png",
-    "graphics": "../graphics/items/silver"
+    "graphics": "../graphics/items/silver",
+    "on_level": "silver"
     
   },
   "6": {
@@ -59,7 +61,8 @@
     "menu": "coin",
     "menu_surf": "../graphics/menu/diamond.png",
     "preview": "../graphics/preview/diamond.png",
-    "graphics": "../graphics/items/diamond"
+    "graphics": "../graphics/items/diamond",
+    "on_level": "diamond"
     
   },
   "7": {
@@ -86,7 +89,8 @@
     "menu": "enemy",
     "menu_surf": "../graphics/menu/shell_left.png",
     "preview": "../graphics/preview/shell_left.png",
-    "graphics": "../graphics/enemies/shell_left/idle"
+    "graphics": "../graphics/enemies/shell_left/idle",
+    "on_level": "left"
     
   },
   "10": {
@@ -95,7 +99,8 @@
     "menu": "enemy",
     "menu_surf": "../graphics/menu/shell_right.png",
     "preview": "../graphics/preview/shell_right.png",
-    "graphics": "../graphics/enemies/shell_right/idle"
+    "graphics": "../graphics/enemies/shell_right/idle",
+    "on_level": "right"
     
   },
   "11": {
@@ -104,7 +109,8 @@
     "menu": "palm fg",
     "menu_surf": "../graphics/menu/small_fg.png",
     "preview": "../graphics/preview/small_fg.png",
-    "graphics": "../graphics/terrain/palm/small_fg"
+    "graphics": "../graphics/terrain/palm/small_fg",
+    "on_level": "small_fg"
     
   },
   "12": {
@@ -113,7 +119,8 @@
     "menu": "palm fg",
     "menu_surf": "../graphics/menu/large_fg.png",
     "preview": "../graphics/preview/large_fg.png",
-    "graphics": "../graphics/terrain/palm/large_fg"
+    "graphics": "../graphics/terrain/palm/large_fg",
+    "on_level": "large_fg"
     
   },
   "13": {
@@ -122,7 +129,8 @@
     "menu": "palm fg",
     "menu_surf": "../graphics/menu/left_fg.png",
     "preview": "../graphics/preview/left_fg.png",
-    "graphics": "../graphics/terrain/palm/left_fg"
+    "graphics": "../graphics/terrain/palm/left_fg",
+    "on_level": "left_fg"
     
   },
   "14": {
@@ -131,7 +139,8 @@
     "menu": "palm fg",
     "menu_surf": "../graphics/menu/right_fg.png",
     "preview": "../graphics/preview/right_fg.png",
-    "graphics": "../graphics/terrain/palm/right_fg"
+    "graphics": "../graphics/terrain/palm/right_fg",
+    "on_level": "right_fg"
     
   },
   "15": {
@@ -140,7 +149,8 @@
     "menu": "palm bg",
     "menu_surf": "../graphics/menu/small_bg.png",
     "preview": "../graphics/preview/small_bg.png",
-    "graphics": "../graphics/terrain/palm/small_bg"
+    "graphics": "../graphics/terrain/palm/small_bg",
+    "on_level": "small_bg"
     
   },
   "16": {
@@ -149,7 +159,8 @@
     "menu": "palm bg",
     "menu_surf": "../graphics/menu/large_bg.png",
     "preview": "../graphics/preview/large_bg.png",
-    "graphics": "../graphics/terrain/palm/large_bg"
+    "graphics": "../graphics/terrain/palm/large_bg",
+    "on_level": "large_bg"
     
   },
   "17": {
@@ -158,7 +169,8 @@
     "menu": "palm bg",
     "menu_surf": "../graphics/menu/left_bg.png",
     "preview": "../graphics/preview/left_bg.png",
-    "graphics": "../graphics/terrain/palm/left_bg"
+    "graphics": "../graphics/terrain/palm/left_bg",
+    "on_level": "left_bg"
     
   },
   "18": {
@@ -167,7 +179,8 @@
     "menu": "palm bg",
     "menu_surf": "../graphics/menu/right_bg.png",
     "preview": "../graphics/preview/right_bg.png",
-    "graphics": "../graphics/terrain/palm/right_bg"
+    "graphics": "../graphics/terrain/palm/right_bg",
+    "on_level": "right_bg"
     
   },
   "19": {

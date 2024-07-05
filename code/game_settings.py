@@ -1,3 +1,6 @@
+from os import listdir
+from os.path import isfile
+
 import pygame
 from settings import *
 
@@ -18,6 +21,9 @@ class SettingMenu:
         self.display_settings = False
 
         self.group_settings = pygame.sprite.Group()
+
+        # font
+        self.font = pygame.font.Font(None, 50)
 
         # import textures
 
@@ -90,6 +96,7 @@ class SettingMenu:
 
         self.music_on = True
         self.sounds_on = True
+        self.saves = [f for f in listdir(f'../maps') if isfile(f'../maps/{f}')]
 
 
     def set_sounds(self, sounds_bg: list, sounds_effect: list):
@@ -182,6 +189,10 @@ class SettingMenu:
             self.draw_volume(self.walker_sound, self.limit_walker_sounds)
             self.display_surface.blit(self.walker_music.image, self.walker_music.rect)
             self.display_surface.blit(self.walker_sound.image, self.walker_sound.rect)
+            for i in range(len(self.saves)):
+                name_save = self.font.render(self.saves[i], False, '#FF0000')
+                name_save_rect = name_save.get_rect(center=(100, 100 + i*50))
+                self.display_surface.blit(name_save, name_save_rect)
 
             self.rect = self.bg_rect
         else:
@@ -191,6 +202,8 @@ class SettingMenu:
         self.display()
         self.change_walker_music()
         self.change_walker_sounds()
+        if self.display_settings:
+            self.saves = [f for f in listdir(f'../maps') if isfile(f'../maps/{f}')]
         # self.update_images()
 
 
